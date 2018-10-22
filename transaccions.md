@@ -114,12 +114,12 @@ error,bikesInUsage,electricalBikesInUsage,mechanicalBikesInUsage,dateTime
 **I a la primera linia afegirem el resultat que ens doni el web amb el requests.get en format json a la llista databicing que hem creat abans.**  
 	
 **Al print mostrarem en quin número de petició estem. Fixeu-vos que convertim el valor enter en un string de caràcters per tal de mostrar-lo.**    
-	while iteracio < 30:
-		databicing.append(requests.get("https://www.bicing.cat/current-bikes-in-use.json").json())
-		time.sleep(1)
-		iteracio=iteracio+1
-		print("Petició Nº:"+str(iteracio))
-		print("  Dades: "+str(databicing[iteracio-1]))
+	while iteracio < 30:  
+		databicing.append(requests.get("https://www.bicing.cat/current-bikes-in-use.json").json())  
+		time.sleep(1)  
+		iteracio=iteracio+1  
+		print("Petició Nº:"+str(iteracio))  
+		print("  Dades: "+str(databicing[iteracio-1]))  
 	
 **Ara ja tenim les dades a la memòria de l'ordinador, dins la variable databicing que és una llista. Per accedir a cada petició emmagatzemada a aquesta llista ho farem amb l'índex, en aquest cas la primera és la 0 , d'aquesta primera petició n'agafarem els títols, que són les claus (keys)**  
 	titols = databicing[0].keys()
