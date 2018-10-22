@@ -13,8 +13,11 @@ Matplotlib : permet fer gràfiques i gestionar-ne els paràmetres a partir de le
 **Expliqueu què es fa en cada part de la transacció del nostre programa python:**
 
 _ENTRADA_ : curl "https://www.bicing.cat/current-bikes-in-use.json"
+
 _EMMAGATZEMATGE_ : dades = numpy.genfromtxt('databicing.csv',delimiter=',', skip_header=1, usecols=(3)) **es guarden les dades en un arxiu**
+
 _PROCESSAMENT_ : databicing.csv	**es processen les dades**
+
 _SORTIDA_ : plt.plot(dades)	**
 			plt.title('Bicing')
 			plt.ylabel('Bicis')
