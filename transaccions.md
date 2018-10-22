@@ -1,8 +1,8 @@
-**Quin/s paquet/s dels repositoris del sistema operatiu cal instal.lar i per a què serveixen?**
+**1. Quin/s paquet/s dels repositoris del sistema operatiu cal instal.lar i per a què serveixen?**
 
 - sudo dnf install python3-tkinter -y
 
-**Quin/s paquet/s de llibreries de python s'han d'instal.lar i per a què serveixen?**
+**2. Quin/s paquet/s de llibreries de python s'han d'instal.lar i per a què serveixen?**
 
 - sudo dnf install pip3 install requests numpy matplotlib
 
@@ -10,25 +10,25 @@ Numpy : ens permetrà llegir les dades del fitxer i desar-les en un format que e
 
 Matplotlib : permet fer gràfiques i gestionar-ne els paràmetres a partir de les dades llegides
 
-**Expliqueu què es fa en cada part de la transacció del nostre programa python:**
+**3. Expliqueu què es fa en cada part de la transacció del nostre programa python:**
 
-_ENTRADA_ : curl "https://www.bicing.cat/current-bikes-in-use.json"
+**_ENTRADA_** : curl "https://www.bicing.cat/current-bikes-in-use.json"
 
-_EMMAGATZEMATGE_ : dades = numpy.genfromtxt('databicing.csv',delimiter=',', skip_header=1, usecols=(3)) **es guarden les dades en un arxiu**
+**_EMMAGATZEMATGE_** : dades = numpy.genfromtxt('databicing.csv',delimiter=',', skip_header=1, usecols=(3)) **es guarden les dades en un arxiu**
 
-_PROCESSAMENT_ : databicing.csv	**es processen les dades**
+**_PROCESSAMENT_** : databicing.csv	**es processen les dades**
 
-_SORTIDA_ : plt.plot(dades)	**
-			plt.title('Bicing')
-			plt.ylabel('Bicis')
-			plt.xlabel('Temps')
+**_SORTIDA_** : plt.plot(dades)	**
+		plt.title('Bicing')
+		plt.ylabel('Bicis')
+		plt.xlabel('Temps')
 
 
-**Què hauríem de canviar al codi per tal que en comptes de mostrar les bicicletes totals en ús ens mostrés només les bicicletes elèctriques en ús?**
+**4. Què hauríem de canviar al codi per tal que en comptes de mostrar les bicicletes totals en ús ens mostrés només les bicicletes elèctriques en ús?**
 
 - la columna , s'ha d'escollir que només agafi les dades de les bicicletes elèctriques en us.
 
-**Canvieu ara els següents paràmetres del nostre programa python i copieu aquí el programa sencer una vegada modificat i comprovat que fa el que ha de fer. També copieu aquí les dades que s'han emmagatzemat al fitxer:**
+**5. Canvieu ara els següents paràmetres del nostre programa python i copieu aquí el programa sencer una vegada modificat i comprovat que fa el que ha de fer. També copieu aquí les dades que s'han emmagatzemat al fitxer:**
 
 - Feu que faci 30 iteracions en comptes de 10: 
 
@@ -42,36 +42,36 @@ _SORTIDA_ : plt.plot(dades)	**
 **DADES EMMAGATZEMADES** : 
 
 error,bikesInUsage,electricalBikesInUsage,mechanicalBikesInUsage,dateTime
-0,472,2,470,2018-10-22 12:48:15
-0,472,2,470,2018-10-22 12:48:16
-0,473,2,471,2018-10-22 12:48:18
-0,472,2,470,2018-10-22 12:48:19
-0,474,2,472,2018-10-22 12:48:20
-0,475,2,473,2018-10-22 12:48:22
-0,476,2,474,2018-10-22 12:48:23
-0,475,2,473,2018-10-22 12:48:25
-0,473,2,471,2018-10-22 12:48:26
-0,474,2,472,2018-10-22 12:48:28
-0,475,2,473,2018-10-22 12:48:29
-0,475,2,473,2018-10-22 12:48:31
-0,474,2,472,2018-10-22 12:48:32
-0,475,2,473,2018-10-22 12:48:34
-0,473,2,471,2018-10-22 12:48:35
-0,474,2,472,2018-10-22 12:48:37
-0,472,2,470,2018-10-22 12:48:38
-0,471,2,469,2018-10-22 12:48:40
-0,470,2,468,2018-10-22 12:48:41
-0,468,2,466,2018-10-22 12:48:43
-0,468,2,466,2018-10-22 12:48:44
-0,469,2,467,2018-10-22 12:48:46
-0,469,2,467,2018-10-22 12:48:47
-0,469,2,467,2018-10-22 12:48:49
-0,471,2,469,2018-10-22 12:48:50
-0,471,2,469,2018-10-22 12:48:51
-0,472,2,470,2018-10-22 12:48:53
-0,473,2,471,2018-10-22 12:48:54
-0,473,2,471,2018-10-22 12:48:56
-0,474,2,472,2018-10-22 12:48:57+
+0,472,2,470,2018-10-22 12:48:15  
+0,472,2,470,2018-10-22 12:48:16  
+0,473,2,471,2018-10-22 12:48:18  
+0,472,2,470,2018-10-22 12:48:19  
+0,474,2,472,2018-10-22 12:48:20  
+0,475,2,473,2018-10-22 12:48:22  
+0,476,2,474,2018-10-22 12:48:23  
+0,475,2,473,2018-10-22 12:48:25  
+0,473,2,471,2018-10-22 12:48:26  
+0,474,2,472,2018-10-22 12:48:28  
+0,475,2,473,2018-10-22 12:48:29  
+0,475,2,473,2018-10-22 12:48:31  
+0,474,2,472,2018-10-22 12:48:32  
+0,475,2,473,2018-10-22 12:48:34  
+0,473,2,471,2018-10-22 12:48:35  
+0,474,2,472,2018-10-22 12:48:37  
+0,472,2,470,2018-10-22 12:48:38  
+0,471,2,469,2018-10-22 12:48:40  
+0,470,2,468,2018-10-22 12:48:41  
+0,468,2,466,2018-10-22 12:48:43  
+0,468,2,466,2018-10-22 12:48:44  
+0,469,2,467,2018-10-22 12:48:46  
+0,469,2,467,2018-10-22 12:48:47  
+0,469,2,467,2018-10-22 12:48:49  
+0,471,2,469,2018-10-22 12:48:50  
+0,471,2,469,2018-10-22 12:48:51  
+0,472,2,470,2018-10-22 12:48:53  
+0,473,2,471,2018-10-22 12:48:54  
+0,473,2,471,2018-10-22 12:48:56  
+0,474,2,472,2018-10-22 12:48:57+  
 
 
 **CODI FINAL** : 
