@@ -14,14 +14,14 @@ Matplotlib : permet fer gràfiques i gestionar-ne els paràmetres a partir de le
 
 - **_ENTRADA_** : curl "https://www.bicing.cat/current-bikes-in-use.json"
 
-- **_EMMAGATZEMATGE_** : dades = numpy.genfromtxt('databicing.csv',delimiter=',', skip_header=1, usecols=(3)) **es guarden les dades en un arxiu**
+- **_EMMAGATZEMATGE_** : dades = numpy.genfromtxt('databicing.csv',delimiter=',', skip_header=1, usecols=(3)) **(es guarden les dades en un arxiu)**
 
-- **_PROCESSAMENT_** : databicing.csv	**es processen les dades**
+- **_PROCESSAMENT_** : databicing.csv	**(es processen les dades)**
 
-- **_SORTIDA_** : plt.plot(dades)	**
-		plt.title('Bicing')
-		plt.ylabel('Bicis')
-		plt.xlabel('Temps')
+- **_SORTIDA_** : plt.plot(dades)	
+		  plt.title('Bicing')
+		  plt.ylabel('Bicis')
+		  plt.xlabel('Temps')
 
 
 **4. Què hauríem de canviar al codi per tal que en comptes de mostrar les bicicletes totals en ús ens mostrés només les bicicletes elèctriques en ús?**
@@ -77,16 +77,16 @@ error,bikesInUsage,electricalBikesInUsage,mechanicalBikesInUsage,dateTime
 **CODI FINAL** : 
 
 
- **Autor: Gary Samuel Chiriboga Hidalgo**					 
- **Llicència: AGPLv2**                                                          
- **DESCRIPCIO**                                                                 
-   Es conectarà 10 vegadas a la api json de bicing en intervals d'un segon 
-   i posteriorment mostrarà l'evolució en una gràfica                       
- **INSTALL LIBRARIES:**                                                       
-   sudo dnf install python3-tkinter -y                                      
-   sudo pip3 install requests numpy matplotlib                              
- **RUN:**									      
-   python3 bikesInUse.py                                                    
+ 	**Autor: Gary Samuel Chiriboga Hidalgo**  				 
+ 	**Llicència: AGPLv2**                                                          
+ 	**DESCRIPCIO**                                                                 
+ 	 	Es conectarà 10 vegadas a la api json de bicing en intervals d'un segon 
+ 	 	i posteriorment mostrarà l'evolució en una gràfica                       
+	 **INSTALL LIBRARIES:**                                                       
+ 		sudo dnf install python3-tkinter -y                                      
+   		sudo pip3 install requests numpy matplotlib                              
+ 	**RUN:**									      
+ 	 	python3 bikesInUse.py                                                    
 
 
 
