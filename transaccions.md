@@ -18,7 +18,7 @@ Matplotlib : permet fer gràfiques i gestionar-ne els paràmetres a partir de le
 
 - **_PROCESSAMENT_** : databicing.csv	**(es processen les dades)**
 
-- **_SORTIDA_** : plt.plot(dades)  	
+- **_SORTIDA_** : plt.plot(dades)    	
 		  plt.title('Bicing')    
 		  plt.ylabel('Bicis')  
 		  plt.xlabel('Temps')  
