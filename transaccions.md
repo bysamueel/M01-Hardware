@@ -125,11 +125,11 @@ error,bikesInUsage,electricalBikesInUsage,mechanicalBikesInUsage,dateTime
 	titols = databicing[0].keys()
 
 **I aquí el que fem és obrir un fitxer databicing.csv en mode escriptura i anar-hi desant les dades en format csv**  
-	print(databicing)
-	with open('databicing.csv', 'w') as fitxer:
-    	punter = csv.DictWriter(fitxer, titols)
-    	punter.writeheader()
-    	punter.writerows(databicing)
+	print(databicing)  
+	with open('databicing.csv', 'w') as fitxer:  
+    	punter = csv.DictWriter(fitxer, titols)  
+    	punter.writeheader()  
+    	punter.writerows(databicing)  
 
 **Hem fet un seguit de peticions al web de bicing mitjançant la tarja de xarxa i els protocols de xarxa que ens proporciona el sistema operatiu.**  
 
@@ -143,17 +143,17 @@ error,bikesInUsage,electricalBikesInUsage,mechanicalBikesInUsage,dateTime
 	import numpy
 	
 **La llibreria matplotlib permet fer gràfiques i gestionar-ne els paràmetres a partir de les dades llegides del fitxer databicing.csv**  
-	~ import matplotlib
-	from matplotlib import pyplot as plt
+	~ import matplotlib  
+	from matplotlib import pyplot as plt  
 	
 **Llegim les dades del fitxer**  
-	dades = numpy.genfromtxt('databicing.csv',delimiter=',', skip_header=1, usecols=(3))
+	dades = numpy.genfromtxt('databicing.csv',delimiter=',', skip_header=1, usecols=(3))  
 	
 **Dibuixem les dades en memòria i posem títols a la gràfica**  
-		plt.plot(dades)
-		plt.title('Samuel Chiriboga Hidalgo')
-		plt.ylabel('Bicis')
-		plt.xlabel('Temps')
+		plt.plot(dades)  
+		plt.title('Samuel Chiriboga Hidalgo')  
+		plt.ylabel('Bicis')  
+		plt.xlabel('Temps')  
 	
 **Generem una finestra on mostrar la gràfica que tenim en memòria.**  
 		plt.show()
