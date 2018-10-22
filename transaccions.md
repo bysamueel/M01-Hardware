@@ -18,10 +18,10 @@ Matplotlib : permet fer gràfiques i gestionar-ne els paràmetres a partir de le
 
 - **_PROCESSAMENT_** : databicing.csv	**(es processen les dades)**
 
-- **_SORTIDA_** : plt.plot(dades)	
-		  plt.title('Bicing')
-		  plt.ylabel('Bicis')
-		  plt.xlabel('Temps')
+- **_SORTIDA_** : plt.plot(dades)  	
+		  plt.title('Bicing')  
+		  plt.ylabel('Bicis')  
+		  plt.xlabel('Temps')  
 
 
 **4. Què hauríem de canviar al codi per tal que en comptes de mostrar les bicicletes totals en ús ens mostrés només les bicicletes elèctriques en ús?**
