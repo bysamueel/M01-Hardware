@@ -9,10 +9,10 @@ Buscamos en el Explorador la placa base que tiene el PC que era un GiGAByte H81M
   
 Cogemos el TESTER y diferenciamos el simbolo de Corriente Continua con Alterna  
 **_**  
-**...**   --> CORRENT CONTINUA  
+**...**   --> **CORRENT CONTINUA**  
 
 **～**  
-**...**   --> CORRENT ALTERNA
+**...**   --> **CORRENT ALTERNA**
 
 Probamos el TESTER en diferentes piezas y lugares del PC para comprobar si estan correctamente y si funcionan perfectamente.  
 
