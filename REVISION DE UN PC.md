@@ -20,9 +20,9 @@ Colocamos la salida del cable rojo en la entrada del voltaje (rojo) , en la otra
 Colocamos la salida del cable negro en la entrada del voltaje (negro) , luego seleccionamos con la rueda que tenemos la funcion que queremos realizar con el TESTER DIGITAL , ya sea Corriente Continua o Corriente Alterna.  
 Y por ultimo hacemos contacto con las pinzas
 
-Buscamos el Manual de la Placa Base que tiene el PC para guiarnos y entender como funciona y que caracteristicas tiene la placa base. Podemos ir dando una ojeada a las pàginas ver como va cada cosa y mirar cosas que son muy importante de montar , como el frontpanel. 
+Buscamos el Manual de la Placa Base que tiene el PC para guiarnos y entender como funciona y que caracteristicas tiene la placa base. Podemos ir dando una ojeada a las pàginas ver como va cada cosa y mirar cosas que son muy importante de montar , como el frontpanel , la motherboard layout , el diagrama de la placa , 
 
 Hacemos una prueba para saber si funciona el boton de encendido quitando el pequeño conector "POWER SW" con cable naranja (+) y blanco (-), los cables blancos siempre son negativos y los cables de color son positivos , procedemos a hacer contacto las pinzar con los cables y esperar a ver si el TESTER pita , si pita quiere decir que el cable esta en perfectas condiciones.  
 
-Luego probamos el Power Supply Tester , desconectamos en cable de 24 pines que esta enchufado a la placa base , apretando una especie de pinza , y estirando para arriba de lado a lado.
-Luego cogemos , y la conectamos al Power Supply Tester , y este nos dira si funciona o no.  
+Luego probamos el Power Supply Tester , desconectamos en cable de 24 pines que esta enchufado a la placa base , apretando una especie de pinza , y estirando hacia arriba y de lado a lado.
+Luego cogemos , y la conectamos al Power Supply Tester , y este nos dira su voltaje y su estado  
