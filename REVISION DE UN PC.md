@@ -16,7 +16,8 @@ Cogemos el TESTER y diferenciamos el simbolo de Corriente Continua con Alterna
 **...**   --> CORRENT ALTERNA
 
 Probamos el TESTER en diferentes piezas y lugares del PC para comprobar si estan correctamente y si funcionan perfectamente  
-Buscamos el Manual de la Placa Base que tiene el PC , y vamos viendo y tratando de entender como funciona  
+
+Buscamos el Manual de la Placa Base que tiene el PC para guiarnos y entender como funciona y que caracteristicas tiene la placa base.  
 
 Hicimos una prueba de saber si funciona el boton de encendido quitando el pequeño conector "POWER SW" con cable naranja (+) y blanco (-) , Jonathan nos dijo que los cables blancos siempre eran negativos y los cables de color eran positivos , procedemos a hacer contacto las pinzar con los cables y esperar a ver si el TESTER pita , si pita quiere decir que el cable esta en perfectas condiciones.  
 
