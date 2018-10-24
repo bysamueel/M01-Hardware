@@ -1,4 +1,4 @@
-# REVISIÓN E INSTRUCCIÓN PARA MONTAR UN PC  
+# DESMONTAJE DE UNA CAJA
 **- Probamos el TESTER**  
 Desmontamos el PC , procediendo a sacar la capa lateral , con un destornillador Estrella , encontramos la fuente de 
 alimentacion con cables que lo conectan a la placa base
