@@ -23,5 +23,3 @@ Hicimos una prueba de saber si funciona el boton de encendido quitando el peque√
 Luego probamos el Power Supply Tester , desconectamos en cable de 24 puestos que esta enchufado a la placa base , apretando una especie de pinza , y estirando para arriba de lado a lado.
 
 Luego cogemos , y la conectamos al Power Supply Tester , y este nos dira si funciona o no.  
-
-Nos ense√±o varios tips de que hacer si el boton Power no funciona y mas cosas.
