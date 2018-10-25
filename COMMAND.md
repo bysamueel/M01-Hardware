@@ -13,4 +13,4 @@
 - **rm**: eliminar arxiu.
 - **nmap "IP"**: saber quins ports estan oberts.
 
-ARXIU de Marc Carrión @carrionm
+ARXIU de **[Marc Carrión Profile](https://github.com/carrionm/Hardware)**
