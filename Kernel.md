@@ -33,3 +33,18 @@ Ejemplos:
 - Cynnamon  
   
 ![alt text](https://i.ytimg.com/vi/bWmTUmzrBGM/maxresdefault.jpg)
+
+I per a un PC amb **pocs recursos** tenim:
+
+- OpenBox  
+  
+![alt text](https://i.stack.imgur.com/exJg9.png)
+  
+- Fluxbox  
+  
+![alt text](https://www.howtoforge.com/images/setup_fluxbox_desktop_on_kali_linux/big/conclusion-desktop.png)
+  
+També tenim **Gnome** (no recomanat perquè pesa molt).  
+  
+![alt text](https://i.ytimg.com/vi/VhK_2M0B8Qo/maxresdefault.jpg)
+  
