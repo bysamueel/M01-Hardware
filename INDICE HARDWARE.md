@@ -1,5 +1,20 @@
 # ÍNDICE HARDWARE  
   
+* **HOMEWORK :** Investigar sobre Virtual Box 
+* PARTICIONES
+    - Reglas de Particiones en Windows
+* BIOS CONFIG
+    - Boot Menu
+    - Boot Sequence
+    - LAN Boot
+    - IDE - AHCI
+* DE QUE MANERAS PUEDO ARRANCAR MI PC?
+    - USB/DVD
+    - Disco Duro
+    - PXE
+* HOW INSTALL FEDORA 27
+* **HOMEWORK :** - Instalar màquina virtual
+                 - Definir : ASR , DDR3 , DDR4 , 
 * BIOS  
     - MBR DOS
 * UEFI
